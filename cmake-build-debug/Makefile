@@ -170,33 +170,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/geneticAlgorithms.dir/build.make CMakeFiles/geneticAlgorithms.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/display.o: src/display.cpp.o
-
-.PHONY : src/display.o
-
-# target to build an object file
-src/display.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/geneticAlgorithms.dir/build.make CMakeFiles/geneticAlgorithms.dir/src/display.cpp.o
-.PHONY : src/display.cpp.o
-
-src/display.i: src/display.cpp.i
-
-.PHONY : src/display.i
-
-# target to preprocess a source file
-src/display.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/geneticAlgorithms.dir/build.make CMakeFiles/geneticAlgorithms.dir/src/display.cpp.i
-.PHONY : src/display.cpp.i
-
-src/display.s: src/display.cpp.s
-
-.PHONY : src/display.s
-
-# target to generate assembly for a file
-src/display.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/geneticAlgorithms.dir/build.make CMakeFiles/geneticAlgorithms.dir/src/display.cpp.s
-.PHONY : src/display.cpp.s
-
 src/individual.o: src/individual.cpp.o
 
 .PHONY : src/individual.o
@@ -263,9 +236,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/display.o"
-	@echo "... src/display.i"
-	@echo "... src/display.s"
 	@echo "... src/individual.o"
 	@echo "... src/individual.i"
 	@echo "... src/individual.s"

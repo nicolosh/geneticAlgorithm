@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/geneticAlgorithms.dir/main.cpp.o"
-  "CMakeFiles/geneticAlgorithms.dir/src/display.cpp.o"
   "CMakeFiles/geneticAlgorithms.dir/src/individual.cpp.o"
   "CMakeFiles/geneticAlgorithms.dir/src/population.cpp.o"
   "geneticAlgorithms.exe"

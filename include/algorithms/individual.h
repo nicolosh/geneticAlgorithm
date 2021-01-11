@@ -8,6 +8,8 @@
 #include <vector>
 #include <cassert>
 #include <iostream>
+#include <stdlib.h>     /* srand, rand */
+#include <time.h>
 
 namespace algorithms {
     class Individual {
@@ -15,22 +17,35 @@ namespace algorithms {
         std::vector<int> genes_;
         int size_;
         int fitness_;
+    private:
+        void addGene() {
+            genes_.push_back(rand() % 2);
+        }
+
     public:
-        Individual(int size) : size_(size){
+        Individual(int size) {
+            assert(size > 0);
+            size_ = size;
             for (int i = 0; i < size_; ++i) {
                 addGene();
             }
         };
 
-        void setFitness(int fitness) { fitness_ = fitness; }
+        Individual() {};
+
+        int computeFitness();
+
+        int getSize() const { return size_; }
+
+        void setSize(int size) { size_ = size; }
 
         int getFitness() const { return fitness_; }
 
         const std::vector<int> &getGenes() const { return genes_; }
 
-        void addGene() {
-            srand(time(nullptr));
-            genes_.push_back(rand() % 2);
+        void setGene(int gene) {
+            assert(gene > 0);
+            genes_.push_back(gene);
         }
 
         void printInfo(int index) const;

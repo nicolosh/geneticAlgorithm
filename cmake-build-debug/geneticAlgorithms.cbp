@@ -85,9 +85,6 @@
 		<Unit filename="/cygdrive/c/Users/nicol/OneDrive/Desktop/C++/geneticAlgorithms/main.cpp">
 			<Option target="geneticAlgorithms"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/nicol/OneDrive/Desktop/C++/geneticAlgorithms/src/display.cpp">
-			<Option target="geneticAlgorithms"/>
-		</Unit>
 		<Unit filename="/cygdrive/c/Users/nicol/OneDrive/Desktop/C++/geneticAlgorithms/src/individual.cpp">
 			<Option target="geneticAlgorithms"/>
 		</Unit>

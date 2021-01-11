@@ -3,13 +3,7 @@
 
 CMakeFiles/geneticAlgorithms.dir/main.cpp.o: ../include/algorithms/individual.h
 CMakeFiles/geneticAlgorithms.dir/main.cpp.o: ../include/algorithms/population.h
-CMakeFiles/geneticAlgorithms.dir/main.cpp.o: ../include/algorithms/display.h
 CMakeFiles/geneticAlgorithms.dir/main.cpp.o: ../main.cpp
-
-CMakeFiles/geneticAlgorithms.dir/src/display.cpp.o: ../include/algorithms/individual.h
-CMakeFiles/geneticAlgorithms.dir/src/display.cpp.o: ../include/algorithms/population.h
-CMakeFiles/geneticAlgorithms.dir/src/display.cpp.o: ../include/algorithms/display.h
-CMakeFiles/geneticAlgorithms.dir/src/display.cpp.o: ../src/display.cpp
 
 CMakeFiles/geneticAlgorithms.dir/src/individual.cpp.o: ../include/algorithms/individual.h
 CMakeFiles/geneticAlgorithms.dir/src/individual.cpp.o: ../src/individual.cpp

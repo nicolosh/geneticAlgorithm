@@ -4,6 +4,15 @@
 
 #include "../include/algorithms/individual.h"
 
+
+int algorithms::Individual::computeFitness() {
+    fitness_ = 0;
+    for (int i = 0; i < size_; ++i) {
+        fitness_ += genes_[i];
+    }
+    return fitness_;
+}
+
 void algorithms::Individual::printInfo(int index) const {
     std::cout << "> Individual " << index << " " << "| [ genes = [";
     for (int i = 0; i < genes_.size() - 1; ++i) {
